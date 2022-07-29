@@ -1,14 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500&display=swap');
+
+
 *{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: ;
+  background-color: #FFFFFF ;
 }
 
 header{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 30px 10%;
+    background-color: #EAF6F6;
+}
+.navbar{
+    background-color: #EAF6F6;
 }
 
 .nav-list li{
@@ -19,22 +27,26 @@ header{
 
 .nav-list li a{
     transition: all .3s ease 0s;
+    color: #736470;
+    
 }
+
 
 .nav-list li a:hover{
-    color: ;
+    color: #FF0063;
 }
 
-li, a, button{
+li, a {
     text-decoration: none;
-    font-size: ;
-    font-family: ;
-    font-weight: ;
-    color: ;
+    background-color: #EAF6F6;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
 }
 
 .logo{
     cursor: pointer;
+    background-color: #EAF6F6;
 }
 
 button{
@@ -42,4 +54,14 @@ button{
     border: 1px solid #736470;
     padding: 9px 25px;
     border-radius: 50px;
+    color: #736470;
+    transition: all .3s ease 0s;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+}
+button:hover{
+    background-color: #FF0063;
+    color: #FFFFFF;
+    border: 1px solid #FF0063;
 }
