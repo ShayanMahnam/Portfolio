@@ -7,7 +7,7 @@
   padding: 0;
   background-color: #FFFFFF ;
 }
-
+    /* nav bar*/
 header{
     display: flex;
     justify-content: space-between;
@@ -65,4 +65,33 @@ button:hover{
     background-color: #FF0063;
     color: #FFFFFF;
     border: 1px solid #FF0063;
+}
+
+    /* wire nightmode */
+
+.absolute{
+    position: absolute;
+    left: 12rem;
+    /* mobile 3rem */
+}
+
+.area{
+    width: 200px;
+    height: 500px;
+    
+}
+.wire{
+    background-color: #66BFBF;
+    width: 4px;
+    height: 120px;
+    position: relative;
+    left: 12px;
+}
+.fixture{
+    background-color: #FF0063;
+    width: 8px;
+    height: 12px;
+    position: relative;
+    left: 10px;
+    cursor: pointer;
 }
