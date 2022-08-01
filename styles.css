@@ -59,6 +59,7 @@ button{
     font-weight: 500;
     font-family: 'Montserrat', sans-serif;
     font-size: 13px;
+    cursor: pointer;
 }
 button:hover{
     background-color: #FF0063;
