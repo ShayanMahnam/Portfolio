@@ -79,13 +79,28 @@ button:hover{
     width: 200px;
     height: 500px;
     
+    
 }
+
 .wire{
     background-color: #66BFBF;
     width: 4px;
     height: 120px;
     position: relative;
     left: 12px;
+    animation: swing 3s infinite ease-in-out;
+}
+@keyframes swing {
+    0% {
+        transform: rotate(-10deg);
+      }
+      50% {
+        transform: rotate(10deg);
+      }
+      100% {
+        transform: rotate(-10deg);
+      }
+
 }
 .fixture{
     background-color: #FF0063;
