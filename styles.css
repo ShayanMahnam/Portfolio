@@ -76,9 +76,11 @@ button:hover{
 }
 
 .area{
-    width: 200px;
-    height: 500px;
-    
+    -webkit-animation-name: swing;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-transform-origin: 50% 0;
+    -webkit-animation-timing-function: ease-in-out;
     
 }
 
@@ -88,21 +90,17 @@ button:hover{
     height: 120px;
     position: relative;
     left: 12px;
-    -webkit-animation-name: swing;
-    -webkit-animation-duration: 4s;
-    -webkit-animation-iteration-count: infinite;
-    -webkit-transform-origin: 50% 0;
-    -webkit-animation-timing-function: ease-in-out;
+    
 }
 @keyframes swing {
     0% {
-        transform: rotate(-10deg);
+        transform: rotate(-5deg);
       }
       50% {
-        transform: rotate(10deg);
+        transform: rotate(5deg);
       }
       100% {
-        transform: rotate(-10deg);
+        transform: rotate(-5deg);
       }
 
 }
