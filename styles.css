@@ -117,6 +117,19 @@ button:hover{
 .light-text p{
     font-family: 'Shadows Into Light', sans-serif;
     font-size: 20px;
+    font-weight: 1000;
+    animation: scale 3s ease-out infinite alternate;
+}
+@keyframes scale{
+    0% {
+        transform: skew(-.312rad);
+      }
+      50% {
+        transform: skew(.312rad);
+      }
+      100% {
+        transform: skew(-.312rad);
+      }
 }
 
 /* text */
