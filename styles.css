@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 
 *{
   box-sizing: border-box;
@@ -108,6 +108,15 @@ button:hover{
     position: relative;
     left: 10px;
     cursor: pointer;
+}
+.light-text{
+    position: absolute;
+    right: 15rem;
+    padding-top: 110px;
+}
+.light-text p{
+    font-family: 'Shadows Into Light', sans-serif;
+    font-size: 20px;
 }
 
 /* text */
