@@ -5,7 +5,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: #FFFFFF ;
+  font-family: 'Montserrat', sans-serif;
 }
     /* nav bar*/
 header{
@@ -13,10 +13,10 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
-    background-color: #EAF6F6;
+    background-color: #66BFBF;
 }
 .navbar{
-    background-color: #EAF6F6;
+    background-color: #66BFBF;
 }
 
 .nav-list li{
@@ -27,7 +27,7 @@ header{
 
 .nav-list li a{
     transition: all .3s ease 0s;
-    color: #736470;
+    color: #FFFFFF;
     
 }
 
@@ -36,29 +36,29 @@ header{
     color: #FF0063;
 }
 
-li, a {
+li a {
     text-decoration: none;
-    background-color: #EAF6F6;
-    font-size: 15px;
+    background-color: #66BFBF;
+    font-size: 16px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
 }
 
 .logo{
     cursor: pointer;
-    background-color: #EAF6F6;
+    background-color: #66BFBF;
 }
 
 button{
     background-color: transparent;
-    border: 1px solid #736470;
+    border: 1px solid #FFFFFF;
     padding: 9px 25px;
     border-radius: 50px;
-    color: #736470;
+    color: #FFFFFF;
     transition: all .3s ease 0s;
     font-weight: 500;
     font-family: 'Montserrat', sans-serif;
-    font-size: 13px;
+    font-size: 16px;
     cursor: pointer;
 }
 button:hover{
@@ -71,23 +71,14 @@ button:hover{
 
 .absolute{
     position: absolute;
-    left: 12rem;
+    right: 12rem;
     /* mobile 3rem */
 }
 
 .area{
    
     animation: swing 4s ease-in-out  infinite  alternate;
-    transform-origin: 50% 0;
-    
-}
-
-.wire{
-    background-color: #66BFBF;
-    width: 4px;
-    height: 120px;
-    position: relative;
-    left: 12px;
+    transform-origin: 70% 0;
     
 }
 @keyframes swing {
@@ -102,6 +93,14 @@ button:hover{
       }
 
 }
+.wire{
+    background-color: #66BFBF;
+    width: 4px;
+    height: 120px;
+    position: relative;
+    left: 12px;
+}
+
 .fixture{
     background-color: #FF0063;
     width: 8px;
@@ -109,4 +108,39 @@ button:hover{
     position: relative;
     left: 10px;
     cursor: pointer;
+}
+
+/* text */
+.container{
+    width: 50%;
+    padding-top: 30px;
+    color: #736470;
+}
+
+.container, .about-text{
+    margin: 40px;
+}
+.about-text p{
+    padding-top: 10px;
+    text-align: justify;
+}
+
+.input{
+    color: #FF0063;
+}
+
+.social{
+    display: flex;
+    margin: 30px;
+}
+.social a{
+    margin: 15px;
+    font-size: 30px;
+    color: #736470;
+    transition: all .4s ease-in-out;
+    padding-top: -10px;
+}
+.social a:hover{
+    color: #FF0063;
+    transform: scale(1.2);
 }
