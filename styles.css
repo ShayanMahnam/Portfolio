@@ -76,11 +76,9 @@ button:hover{
 }
 
 .area{
-    -webkit-animation-name: swing;
-    -webkit-animation-duration: 4s;
-    -webkit-animation-iteration-count: infinite;
-    -webkit-transform-origin: 50% 0;
-    -webkit-animation-timing-function: ease-in-out;
+   
+    animation: swing 4s ease-in-out  infinite  alternate;
+    transform-origin: 50% 0;
     
 }
 
