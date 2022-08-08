@@ -23,6 +23,7 @@
 
 body{
     background-color: var(--primary-color);
+    transition: all .4s ease-in-out;
 }
 
     /* nav bar*/
@@ -138,7 +139,7 @@ button:hover{
     font-family: 'Shadows Into Light', sans-serif;
     font-size: 20px;
     font-weight: 1000;
-    animation: scale 3s ease-out infinite alternate;
+    animation: scale 5s ease-out infinite alternate;
     color: var(--secondary-color);
     transition: all .2s ease-in-out;
 }
@@ -146,7 +147,7 @@ button:hover{
     font-family: 'Shadows Into Light', sans-serif;
     font-size: 20px;
     font-weight: 1000;
-    animation: scale 3s ease-out infinite alternate;
+    animation: scale 5s ease-out infinite alternate;
     color: var(--secondary-color);
     transition: all .2s ease-in-out;
 }
