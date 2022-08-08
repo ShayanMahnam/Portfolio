@@ -10,13 +10,15 @@
 
 :root{
     --primary-color: #FFFFFF;
-    --secondary-color: #736470;
+    --secondary-color: #00050a;
     --tertiary-color: #000;
+    --quaternary-color: #3a78b5;
 }
 .dark-theme{
     --primary-color: #000000;
     --secondary-color: #FFFFFF;
     --tertiary-color: #fff;
+    --quaternary-color: #57c990;
 }
 
 body{
@@ -48,7 +50,7 @@ header{
 
 
 .nav-list li a:hover{
-    color: #57c990;
+    color: var(--quaternary-color);
 }
 
 li a {
@@ -77,9 +79,9 @@ button{
     cursor: pointer;
 }
 button:hover{
-    background-color: #57c990;
+    background-color: var(--quaternary-color);
     color: #FFFFFF;
-    border: 1px solid #57c990;
+    border: 1px solid var(--quaternary-color);
 }
 
     /* wire nightmode */
@@ -110,20 +112,21 @@ button:hover{
 }
 .wire{
     background-color: var(--tertiary-color);
-    width: 4px;
+    width: 3px;
     height: 120px;
     position: relative;
     left: 12px;
-    transition: all .4s ease-in-out;
+    transition: all .4s ease-out;
 }
 
 .fixture{
-    background-color: #57c990;
+    background-color: var(--quaternary-color);
     width: 8px;
     height: 12px;
     position: relative;
     left: 10px;
     cursor: pointer;
+    transition: all .4s ease-in-out;
 }
 .light-text{
     position: absolute;
@@ -169,7 +172,7 @@ button:hover{
 }
 
 .input{
-    color: #57c990;
+    color: var(--quaternary-color);
 }
 
 .social{
@@ -184,7 +187,7 @@ button:hover{
     padding-top: -10px;
 }
 .social a:hover{
-    color: #57c990;
+    color: var(--quaternary-color);
     transform: scale(1.2);
 }
 
