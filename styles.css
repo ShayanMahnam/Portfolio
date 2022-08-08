@@ -11,10 +11,12 @@
 :root{
     --primary-color: #FFFFFF;
     --secondary-color: #736470;
+    --tertiary-color: #122c40;
 }
 .dark-theme{
     --primary-color: #000000;
     --secondary-color: #FFFFFF;
+    --tertiary-color: #010c17;
 }
 
 body{
@@ -27,10 +29,10 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
-    background-color: #122c40;
+    background-color: var(--tertiary-color);
 }
 .navbar{
-    background-color: #122c40;
+    background-color: var(--tertiary-color);
 }
 
 .nav-list li{
@@ -52,7 +54,7 @@ header{
 
 li a {
     text-decoration: none;
-    background-color: #122c40;
+    background-color: var(--tertiary-color);
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
@@ -60,7 +62,7 @@ li a {
 
 .logo{
     cursor: pointer;
-    background-color: #122c40;
+    background-color: var(--tertiary-color);
 }
 
 button{
@@ -108,7 +110,7 @@ button:hover{
 
 }
 .wire{
-    background-color: #122c40;
+    background-color: var(--tertiary-color);
     width: 4px;
     height: 120px;
     position: relative;
@@ -191,7 +193,7 @@ footer{
     position: absolute;
     justify-content: center;
     align-items: center;
-    background-color: #EAF6F6;
+    background-color: var(--tertiary-color);
     bottom: 0;
     width: 100%;
     height: 3.4rem;
@@ -199,7 +201,7 @@ footer{
 }
 footer p{
     font-size: 12px;
-    color: #736470;
+    color: #FFFFFF;
     text-align: center;
 
 }
