@@ -5,4 +5,8 @@ var typed = new Typed(".input", {
     loop: true
 });
 
+var chngClr = document.getElementById("chng-clr");
 
+chngClr.onclick = function(){
+    document.body.classList.toggle("dark-theme");
+}
