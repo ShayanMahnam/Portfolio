@@ -29,7 +29,8 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
-    border-bottom: 2px solid var(--tertiary-color);    
+    border-bottom: 2px solid var(--tertiary-color);
+    transition: all .4s ease-in-out;    
 }
 
 
@@ -52,7 +53,7 @@ header{
 
 li a {
     text-decoration: none;
-    
+    transition: all .4s ease-in-out;
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
@@ -113,6 +114,7 @@ button:hover{
     height: 120px;
     position: relative;
     left: 12px;
+    transition: all .4s ease-in-out;
 }
 
 .fixture{
@@ -152,6 +154,7 @@ button:hover{
     width: 50%;
     padding-top: 30px;
     color: var(--secondary-color);
+    transition: all .4s ease-in-out;
 }
 
 .container, .about-text{
@@ -201,5 +204,5 @@ footer p{
     font-size: 12px;
     color: var(--secondary-color);
     text-align: center;
-
+    transition: all .4s ease-in-out;
 }
