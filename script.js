@@ -14,11 +14,11 @@ audio.src = "./sounds/switch.mp3";
 chngClr.onclick = function(){
     document.body.classList.toggle("dark-theme");
     audio.play();
-    wire.style.height = "130px";
+    wire.style.height = "120px";
     if (document.body.classList.contains("dark-theme")) {
         darkText.textContent = "on";
     } else {
         darkText.textContent = "off";
-        wire.style.height = "120px";
+        wire.style.height = "130px";
     }
 }
