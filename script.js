@@ -6,13 +6,16 @@ var typed = new Typed(".input", {
 });
 
 var chngClr = document.getElementById("chng-clr");
-var darktext = document.getElementById("dark-text")
+var darkText = document.getElementById("dark-text")
+const audio = new Audio();
+audio.src = "./sounds/switch.mp3";
 
 chngClr.onclick = function(){
     document.body.classList.toggle("dark-theme");
+    audio.play();
     if (document.body.classList.contains("dark-theme")) {
-        darktext.textContent = "on";
+        darkText.textContent = "on";
     } else {
-        darktext.textContent = "off";
+        darkText.textContent = "off";
     }
 }

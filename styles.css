@@ -67,7 +67,7 @@ li a {
     
 }
 
-button{
+.btn{
     background-color: transparent;
     border: 1px solid var(--secondary-color);
     padding: 9px 25px;
@@ -79,7 +79,7 @@ button{
     font-size: 16px;
     cursor: pointer;
 }
-button:hover{
+.btn:hover{
     background-color: var(--quaternary-color);
     color: #FFFFFF;
     border: 1px solid var(--quaternary-color);
@@ -125,6 +125,8 @@ button:hover{
     width: 8px;
     height: 12px;
     position: relative;
+    border: none;
+    top: -6px;
     left: 10px;
     cursor: pointer;
     transition: all .4s ease-in-out;
