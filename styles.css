@@ -96,7 +96,7 @@ li a {
 .area{
    
     animation: swing 4s ease-in-out  infinite  alternate;
-    transform-origin: 70% 0;
+    transform-origin: 50% 0;
     
 }
 @keyframes swing {
