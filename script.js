@@ -13,6 +13,7 @@ audio.src = "./sounds/switch.mp3";
 
 chngClr.onclick = function(){
     document.body.classList.toggle("dark-theme");
+    audio.currentTime = 0;
     audio.play();
     wire.style.height = "120px";
     if (document.body.classList.contains("dark-theme")) {
