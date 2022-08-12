@@ -192,14 +192,17 @@ li a {
 
 .social{
     display: flex;
-    margin: 30px;
+    margin-left: -15px;
+    padding-top: 10px;
+    position: relative;
+    
+    
 }
 .social a{
     margin: 15px;
     font-size: 30px;
     color: var(--secondary-color);
     transition: all .4s ease-in-out;
-    padding-top: -10px;
 }
 .social a:hover{
     color: var(--quaternary-color);
@@ -209,7 +212,7 @@ li a {
 /*footer*/
 footer{
     display: flex;
-    position: absolute;
+    position: relative;
     justify-content: center;
     align-items: center;
    
