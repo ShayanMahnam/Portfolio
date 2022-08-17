@@ -227,3 +227,30 @@ footer p{
     text-align: center;
     transition: all .4s ease;
 }
+
+/* screens */
+@media screen and (max-width: 489px){
+    .absolute{
+        
+        right: 3rem;
+        
+    }
+    .light-text{
+        display: none;
+        
+    }
+}
+
+@media screen and (max-width: 769px){
+    .absolute{
+        
+        right: 6rem;
+        
+    }
+    .light-text{
+        
+        right: 9rem;
+        
+        
+    }
+}
