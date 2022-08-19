@@ -51,9 +51,7 @@ header{
 }
 
 
-.nav-list li a:hover{
-    color: var(--quaternary-color);
-}
+
 
 li a {
     text-decoration: none;
@@ -80,11 +78,7 @@ li a {
     font-size: 16px;
     cursor: pointer;
 }
-.btn:hover{
-    background-color: var(--quaternary-color);
-    color: #FFFFFF;
-    border: 1px solid var(--quaternary-color);
-}
+
 
     /* wire nightmode */
 
@@ -205,10 +199,7 @@ li a {
     color: var(--secondary-color);
     transition: all .4s ease-in-out;
 }
-.social a:hover{
-    color: var(--quaternary-color);
-    transform: scale(1.5);
-}
+
 
 /*footer*/
 footer{
@@ -227,6 +218,23 @@ footer p{
     text-align: center;
     transition: all .4s ease;
 }
+
+/* hover */
+@media (hover: hover) { 
+    .social a:hover{
+        color: var(--quaternary-color);
+        transform: scale(1.5);
+    }
+    .btn:hover{
+        background-color: var(--quaternary-color);
+        color: #FFFFFF;
+        border: 1px solid var(--quaternary-color);
+    }
+    .nav-list li a:hover{
+        color: var(--quaternary-color);
+    }
+    
+  }
 
 /* screens */
 @media screen and (max-width: 769px){
