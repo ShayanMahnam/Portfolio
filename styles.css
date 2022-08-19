@@ -199,7 +199,10 @@ li a {
     color: var(--secondary-color);
     transition: all .4s ease-in-out;
 }
-
+.social a:hover{
+    color: var(--quaternary-color);
+    transform: scale(1.5);
+}
 
 /*footer*/
 footer{
