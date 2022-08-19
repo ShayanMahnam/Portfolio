@@ -25,6 +25,7 @@
 body{
     background-color: var(--primary-color);
     transition: all .4s ease-in-out;
+    
 }
 
     /* nav bar*/
@@ -84,7 +85,7 @@ li a {
 
 .absolute{
     position: absolute;
-    right: 12rem;
+    right: 10rem;
     /* mobile 3rem */
 }
 
@@ -128,7 +129,7 @@ li a {
 }
 .light-text{
     position: absolute;
-    right: 15rem;
+    right: 12rem;
     padding-top: 115px;
     
 }
@@ -161,10 +162,22 @@ li a {
       }
 }
 
+/* image */
+.picture{
+    width: 100%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mypic{
+    width: 320px;
+    height: 400px;
+    
+}
 /* text */
 .container{
+    
     width: 50%;
-    padding-top: 30px;
     color: var(--secondary-color);
     transition: all .4s ease-in-out;
 }
@@ -255,23 +268,27 @@ footer p{
     .light-text{
         display: none;
     }
+
     main{
         display: flex;
         justify-content: center;
         text-align: center;
     }
+    
     .container{
         width: 100%;
     }
     .about-text h1{
         font-size: 22px;
+        text-align: center;
     }
     .about-text h3{
         font-size: 22px;
+        text-align: center;
     }
     .about-text p{
         font-size: 18px;
-        text-align: center;
+        text-align: justify;
     }
     .social{
         display: flex;
