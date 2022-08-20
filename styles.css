@@ -178,8 +178,8 @@ li a {
     
 }
 .mypic{
-    width: 220px;
-    height: 250px;
+    width: 370px;
+    height: 400px;
     
 }
 /* text */
@@ -233,8 +233,8 @@ footer{
     position: absolute;
     justify-content: center;
     align-items: center;
-    bottom: 0;
     width: 100%;
+    padding-top: 500px;
     
 
 }
@@ -334,6 +334,7 @@ footer p{
     }
     footer{
         position: relative;
+        padding-top: 0px;
     }
     footer p{
         font-size: 12px;
