@@ -176,15 +176,18 @@ li a {
     z-index: 1;
     padding-top: 20px;
     padding-left: 25%;
-    transition: all .8s ease-in-out;
+    transition: all .5s ease-in-out;
 }
 .mypic{
     width: 370px;
     height: 400px;
-    border: 2px solid var(--tertiary-color);
-    transition: all .8s ease-in-out;
+    border: 2px solid var(--secondary-color);
+    border-radius: 10%;
+    transition: all .5s ease-in-out;
+    filter: grayscale(100%);
     
 }
+
 /* text */
 .container{
     position: absolute;
@@ -263,7 +266,11 @@ footer p{
     .nav-list li a:hover{
         color: var(--quaternary-color);
     }
-    
+    .mypic:hover{
+        filter: none;
+        filter: grayscale(0%);
+        transition: all 1.5s ease-in-out;
+    }
   }
 
 /* screens */
