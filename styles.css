@@ -144,6 +144,7 @@ li a {
     animation: scale 5s ease-out infinite alternate;
     color: var(--secondary-color);
     transition: all .2s ease-in-out;
+    
 }
 .light-text p #dark-text{
     font-family: 'Shadows Into Light', sans-serif;
@@ -175,18 +176,19 @@ li a {
     z-index: 1;
     padding-top: 20px;
     padding-left: 25%;
-    
+    transition: all .8s ease-in-out;
 }
 .mypic{
     width: 370px;
     height: 400px;
+    transition: all .8s ease-in-out;
     
 }
 /* text */
 .container{
     position: absolute;
     z-index: 2;
-    width: 50%;
+    width: 45%;
     color: var(--secondary-color);
     transition: all .4s ease-in-out;
 }
@@ -201,6 +203,7 @@ li a {
 .about-text p{
     padding-top: 20px;
     text-align: justify;
+    
 }
 
 .input{
