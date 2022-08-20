@@ -20,10 +20,10 @@ chngClr.onclick = function(){
     wire.style.height = "120px";
     if (document.body.classList.contains("dark-theme")) {
         darkText.textContent = "on";
-        pic.src = "./images/mypic2.JPG";
+        pic.src = "./images/mypic4.JPEG";
     } else {
         darkText.textContent = "off";
         wire.style.height = "130px";
-        pic.src = "./images/mypic.JPG";
+        pic.src = "./images/mypic3.JPEG";
     }
 }

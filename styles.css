@@ -181,6 +181,7 @@ li a {
 .mypic{
     width: 370px;
     height: 400px;
+    border: 2px solid var(--tertiary-color);
     transition: all .8s ease-in-out;
     
 }
