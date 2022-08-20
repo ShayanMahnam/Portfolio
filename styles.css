@@ -87,6 +87,7 @@ li a {
     position: absolute;
     right: 10rem;
     /* mobile 3rem */
+    z-index: 4;
 }
 
 .area{
@@ -114,6 +115,7 @@ li a {
     position: relative;
     left: 12px;
     transition: all .4s ease-out;
+    
 }
 
 .fixture{
@@ -126,11 +128,13 @@ li a {
     left: 10px;
     cursor: pointer;
     transition: all .4s ease-in-out;
+    z-index: 3;
 }
 .light-text{
     position: absolute;
     right: 12rem;
     padding-top: 115px;
+    z-index: 3;
     
 }
 .light-text p{
@@ -165,18 +169,22 @@ li a {
 /* image */
 .picture{
     width: 100%;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    z-index: 1;
+    padding-top: 20px;
+    
 }
 .mypic{
-    width: 320px;
-    height: 400px;
+    width: 220px;
+    height: 250px;
     
 }
 /* text */
 .container{
-    
+    position: absolute;
+    z-index: 2;
     width: 50%;
     color: var(--secondary-color);
     transition: all .4s ease-in-out;
@@ -184,6 +192,7 @@ li a {
 
 .container, .about-text{
     margin: 40px;
+    
 }
 .about-text h1{
     padding-top: 20px;
@@ -220,7 +229,7 @@ li a {
 /*footer*/
 footer{
     display: flex;
-    position: relative;
+    position: absolute;
     justify-content: center;
     align-items: center;
     bottom: 0;
@@ -264,9 +273,25 @@ footer p{
     }
     .absolute{
         right: 6rem;
+        z-index: 2;
     }
     .light-text{
         display: none;
+    }
+    .picture{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        padding-left: 10px;
+        padding-top: 20px;
+        z-index: 1;
+    }
+    .mypic{
+        width: 220px;
+        height: 220px;
+        border-radius: 50%;
+        border: 2px solid var(--secondary-color);
     }
 
     main{
@@ -276,7 +301,9 @@ footer p{
     }
     
     .container{
+        position: relative;
         width: 100%;
+        margin-top: -30px;
     }
     .about-text h1{
         font-size: 22px;
@@ -304,8 +331,12 @@ footer p{
     .input{
         font-size: 22px;
     }
+    footer{
+        position: relative;
+    }
     footer p{
         font-size: 12px;
+       
     }
 }
 
