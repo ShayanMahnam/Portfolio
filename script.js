@@ -8,6 +8,7 @@ var typed = new Typed(".input", {
 var chngClr = document.getElementById("chng-clr");
 var darkText = document.getElementById("dark-text");
 var wire = document.getElementById("wire");
+var pic = document.getElementById("pic");
 const audio = new Audio();
 audio.src = "./sounds/switch.mp3";
 
@@ -19,8 +20,10 @@ chngClr.onclick = function(){
     wire.style.height = "120px";
     if (document.body.classList.contains("dark-theme")) {
         darkText.textContent = "on";
+        pic.src = "./images/mypic2.JPG";
     } else {
         darkText.textContent = "off";
         wire.style.height = "130px";
+        pic.src = "./images/mypic.JPG";
     }
 }
