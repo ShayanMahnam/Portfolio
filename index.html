@@ -15,7 +15,7 @@
     <header>
         <nav class="navbar">
             <ul class="nav-list">               
-                <li><a href="#">Portfolio</a></li>
+                <li><a id="toggle" href="#">Portfolio</a></li>
             </ul>
         </nav>
         <img class="logo" src="./images/#" alt="logo" >
@@ -44,6 +44,30 @@
                     <a href="https://twitter.com/shayanma94" target="_blank"><i class="fa-brands fa-twitter"></i></a>
                 </div>
             </div>
+        </div>
+        <div id="overlay" class="overlay">
+           
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <h1>Project name</h1>
+                  <img src="./images/mypic.JPG" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <h1>Project name2</h1>
+                  <img src="./images/mypic2.JPG" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <h1>Project name3</h1>
+                  <img src="./images/mypic3.JPEG" style="width:100%">
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+                </div>
+                <div style="text-align:center">
+                  <span class="dot" onclick="currentSlide(1)"></span> 
+                  <span class="dot" onclick="currentSlide(2)"></span> 
+                  <span class="dot" onclick="currentSlide(3)"></span> 
+                </div>
         </div>
     </main>
     <footer>
