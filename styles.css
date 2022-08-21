@@ -373,6 +373,23 @@ footer p{
     .light-text{
         display: none;
     }
+    .picture{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        padding-left: 1px;
+        padding-top: 20px;
+        z-index: 1;
+    }
+    .mypic{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        border: 2px solid var(--secondary-color);
+        pointer-events: none;
+    }
+
     main{
         display: flex;
         justify-content: center;
