@@ -179,9 +179,9 @@ li a {
     transition: all .5s ease-in-out;
 }
 .mypic{
-    width: 370px;
-    height: 400px;
-    border: 2px solid var(--secondary-color);
+    width: 320px;
+    height: 350px;
+    border: 2px transparent var(--secondary-color);
     border-radius: 10%;
     transition: all .5s ease-in-out;
     filter: grayscale(100%);
@@ -270,6 +270,7 @@ footer p{
         filter: none;
         filter: grayscale(0%);
         transition: all 2s ease-in-out;
+        cursor: wait;
     }
   }
 
