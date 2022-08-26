@@ -372,7 +372,7 @@ footer p{
         filter: none;
         filter: grayscale(0%);
         transition: all 2s ease-in-out;
-        cursor: wait;
+        cursor: pointer;
     }
   }
 
