@@ -281,7 +281,10 @@ footer p{
   perspective: 1300px;
   display: inline-block;
   text-align: left;
-  position: relative;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
   margin-bottom: 22px;
 }
 .csslider > input {
