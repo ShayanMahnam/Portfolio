@@ -612,10 +612,11 @@ footer p{
     .overlay {
         top: 97px;
     }
-    .prev {
-        display: none;
-       
-      }
+  .csslider > ul {
+  width: auto;
+  height: auto;
+  
+}
 }
 
 @media screen and (max-width: 489px){
@@ -693,9 +694,6 @@ footer p{
     .overlay {
         top: 83px;
     }
-    .prev {
-        display: none;
-       
-      }
+    
 }
 
