@@ -20,10 +20,10 @@ chngClr.onclick = function(){
     audio.play();
     wire.style.height = "120px";
     if (document.body.classList.contains("dark-theme")) {
-        darkText.textContent = "on";
+        darkText.textContent = "off";
         
     } else {
-        darkText.textContent = "off";
+        darkText.textContent = "on";
         wire.style.height = "130px";
         
     }

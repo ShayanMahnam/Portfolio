@@ -10,16 +10,16 @@
 }
 
 :root{
-    --primary-color: #FFFFFF;
-    --secondary-color: #00050a;
-    --tertiary-color: #000;
-    --quaternary-color: #3a78b5;
-}
-.dark-theme{
     --primary-color: #000000;
     --secondary-color: #FFFFFF;
     --tertiary-color: #fff;
     --quaternary-color: #57c990;
+}
+.dark-theme{
+    --primary-color: #FFFFFF;
+    --secondary-color: #00050a;
+    --tertiary-color: #000;
+    --quaternary-color: #3a78b5;
 }
 
 body{
