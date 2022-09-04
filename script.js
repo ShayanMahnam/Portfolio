@@ -11,7 +11,7 @@ var darkText = document.getElementById("dark-text");
 var wire = document.getElementById("wire");
 var pic = document.getElementById("pic");
 const audio = new Audio();
-audio.src = "./sounds/switch.mp3";
+audio.src = "./sounds/click2.mp3";
 
 chngClr.onclick = function(){
     document.body.classList.toggle("dark-theme");
