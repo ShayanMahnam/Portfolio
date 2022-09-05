@@ -126,7 +126,7 @@ li a {
     border: none;
     top: -6px;
     left: 10px;
-    cursor: pointer;
+    cursor: grab;
     transition: all .4s ease-in-out;
     z-index: 3;
 }
