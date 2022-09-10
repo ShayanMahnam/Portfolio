@@ -30,13 +30,13 @@ chngClr.onclick = function(){
 }
 
 //button portfolio
-const menu = document.querySelector('#toggle');  
-const menuItems = document.querySelector('#overlay');   
+// const menu = document.querySelector('#toggle');  
+// const menuItems = document.querySelector('#overlay');   
 
-function toggleMenu() {
-    menuItems.classList.toggle('open');
-}
-menu.addEventListener('click', toggleMenu, false);
+// function toggleMenu() {
+//     menuItems.classList.toggle('open');
+// }
+// menu.addEventListener('click', toggleMenu, false);
 
 
 

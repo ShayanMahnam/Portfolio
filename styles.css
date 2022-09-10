@@ -254,24 +254,30 @@ footer p{
 
 /* overlay */
 .overlay {
-    position: absolute;
-    top: 100px;
-    left: 0;
-    width: 100%;
-    height: 0%;
-    opacity: 0;
-    z-index: 5;
     visibility: hidden;
-    overflow: hidden;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
     background-color: var(--quaternary-color);
     transition: all .9s ease-in-out;
+    z-index: 5;
 }
-    .open {
-        opacity: 1;
-        visibility: visible;
-        height: 100%;
-        transition: all .5s ease-in-out;
-    }
+.overlay:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+    .modal__close {
+  position: absolute;
+  font-size: 40px;
+  top: 15px;
+  right: 15px;
+  color: #585858;
+  text-decoration: none;
+}
    
 /* Slideshow container */
 .csslider {
@@ -609,9 +615,7 @@ footer p{
         font-size: 12px;
        
     }
-    .overlay {
-        top: 97px;
-    }
+    
   .csslider > ul {
   width: auto;
   height: auto;
@@ -691,9 +695,5 @@ footer p{
         font-size: 8px;
         margin-top: -60px;
     }
-    .overlay {
-        top: 83px;
-    }
-    
 }
 
