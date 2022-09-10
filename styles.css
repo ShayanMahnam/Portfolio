@@ -25,6 +25,7 @@
 body{
     background-color: var(--primary-color);
     transition: all .4s ease-in-out;
+    height: 100vh;
     
 }
 
