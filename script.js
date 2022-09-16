@@ -10,6 +10,7 @@ var chngClr = document.getElementById("chng-clr");
 var darkText = document.getElementById("dark-text");
 var wire = document.getElementById("wire");
 var pic = document.getElementById("pic");
+var logo = document.getElementById("logo");
 const audio = new Audio();
 audio.src = "./sounds/click2.mp3";
 
@@ -21,11 +22,11 @@ chngClr.onclick = function(){
     wire.style.height = "120px";
     if (document.body.classList.contains("dark-theme")) {
         darkText.textContent = "off";
-        
+        logo.src = "./images/logo2.png";
     } else {
         darkText.textContent = "on";
         wire.style.height = "130px";
-        
+        logo.src = "./images/logo3.png";
     }
 }
 
