@@ -19,7 +19,7 @@ chngClr.onclick = function(){
     audio.currentTime = 0;
     audio.load();
     audio.play();
-    wire.style.height = "120px";
+    wire.style.height = "80px";
     if (document.body.classList.contains("dark-theme")) {
         darkText.textContent = "off";
         logo.src = "./images/logo2.png";
